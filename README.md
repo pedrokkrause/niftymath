@@ -1,6 +1,16 @@
 # niftymath
 Handy optimized math functions
 
+## Usage
+
+Open the folder with setup.py and niftymath.pyx in the command prompt and run
+
+`python setup.py build_ext --inplace`
+
+After this, the compiled module will be generated and can be imported in python normally
+
+`import niftymath`
+
 ## Current functions
 
 `mul`
