@@ -19,8 +19,8 @@ Multiplies every number of an iterable.
 
 `ipow`
 Calculates x to an integer power n.
-x3.4 faster than x**n if x is an int.
-x1.8 faster than x**n if x is a float.
+x3.4 faster than x\*\*n if x is an int.
+x1.8 faster than x\*\*n if x is a float.
 
 `in_polygon`
 Checks whether a point is inside a polygon.
