@@ -14,7 +14,7 @@ def ipow(double x, int n):
     x3.4 faster than x**n if x is an int.
     x1.8 faster than x**n if x is a float.
     """
-    cdef int result = 1.0
+    cdef double result = 1.0
     while n:
         if n&1:
             result *= x
