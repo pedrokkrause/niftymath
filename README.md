@@ -3,7 +3,7 @@ Handy optimized math functions
 
 ## Usage
 
-Open the folder with setup.py and niftymath.pyx in the command prompt and run
+If you use a 64-bit Windows and Python 3.12, you may use the already compiled module. If not then open the folder with setup.py and niftymath.pyx in the command prompt and run
 
 `python setup.py build_ext --inplace`
 
